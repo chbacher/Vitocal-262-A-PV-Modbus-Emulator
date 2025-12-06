@@ -9,7 +9,7 @@ After growing frustrated with Viessmann's restrictive and expensive approach—a
 
 It is important to emphasize that **this is not my original idea.** The concept originates from the work of Flocki and other contributors in the OpenWB forum. However, their original code was outdated and incompatible with newer Vitocal heat pump models and their updated Modbus protocol. This project builds upon and modernizes those early efforts—refactoring, documenting, and simplifying the implementation to create a reliable and accessible solution.
 
-My goal is to make it easier for other frustrated Viessmann customers to achieve seamless smart-home integration without relying on expensive proprietary hardware. If you, too, have been limited by vendor lock-in and poor integration options, this project is for you.
+My goal is to make it easier for other frustrated Viessmann customers to achieve seamless smart-home integration without relying on expensive proprietary hardware. 
 
 ---
 
