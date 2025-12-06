@@ -66,3 +66,26 @@ To build this setup, you might need:
 - **Network:** Optional: Additional USB-to-Ethernet adapter (Wi-Fi would also work) (Amazon, Aliexpress)
 
 **Note:** You can substitute the controller with any Linux-capable device (e.g., standard Raspberry Pi, old laptop, or NAS). Same goes with the OS.
+
+---
+
+## Quick Start
+
+1. **Install Dependencies**
+```bash
+sudo apt update
+sudo apt install -y build-essential libmodbus-dev screen netcat
+```
+2. **Compile:** `gcc -o bin/vitocalsim262 vitocal262a.c -lmodbus -lpthread`
+3. **Run:** `./bin/vitocalsim262` (use `screen` to run in background)
+4. **Send Commands:** From another terminal or machine:
+```bash
+   # Turn OFF: -10 W
+   echo -n "-10" | nc <RASPBERRY_IP> 1502
+   
+   # Heatpump ONLY: 800 W  
+   echo -n "800" | nc <RASPBERRY_IP> 1502
+   
+   # Heatpump + Heater: 4000 W
+   echo -n "4000" | nc <RASPBERRY_IP> 1502
+```
