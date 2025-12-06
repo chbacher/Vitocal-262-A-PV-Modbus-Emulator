@@ -60,8 +60,8 @@ To build this setup, you might need:
 
 - **Controller:** Raspberry Pi Zero 2 W running [DietPi OS](https://dietpi.com/) (lightweight, optimized for Raspberry Pi)
 - **Modbus RTU Adapter:** DSD TECH SH U10 (USB to RS485) (e.g. Amazon, Aliexpress)
-- **Modbus Cable:** Shielded 3-wire cable (A+, B-, Gnd) for RS485 connection (Amazon)
-- **Modbus Connector:** Terminal Block Connector 5.08 mm / Straight Pin Header Socket (Aliexpress)
+- **Modbus Cable:** Shielded 3-wire cable (A+, B-, Gnd) (Amazon)
+- **Modbus Connector:** Terminal Block Connector 5.08 mm / Straight Pin Header Socket for RS485 connection - check your Vitocal PCB - maybe you need a different connector! (Aliexpress)
 - **Power Supply:** Standard 5V USB-C power adapter for the Raspberry Pi
 - **Network:** Optional: Additional USB-to-Ethernet adapter (Wi-Fi would also work) (Amazon, Aliexpress)
 
