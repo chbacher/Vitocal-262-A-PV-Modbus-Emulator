@@ -51,4 +51,18 @@ This project is provided as open‑source software for educational and experimen
 ### ⚡ Electrical Safety Warning
 
 Working with mains voltage, RS485 wiring, and heat pump equipment carries **serious risk of electric shock, fire, or equipment damage.** If you are not qualified or confident in handling electrical installations, **you must consult a licensed electrician** to install and connect any cables between the emulator and the heat pump. **Never work on live circuits.**
-```
+
+---
+
+## Hardware Requirements (What I Used)
+
+To build this setup, you might need:
+
+- **Controller:** Raspberry Pi Zero 2 W running [DietPi OS](https://dietpi.com/) (lightweight, optimized for Raspberry Pi)
+- **Modbus RTU Adapter:** DSD TECH SH U10 (USB to RS485) (e.g. Amazon, Aliexpress)
+- **Modbus Cable:** Shielded 3-wire cable (A+, B-, Gnd) for RS485 connection (Amazon)
+- **Modbus Connector:** Terminal Block Connector 5.08 mm / Straight Pin Header Socket (Aliexpress)
+- **Power Supply:** Standard 5V USB-C power adapter for the Raspberry Pi
+- **Network:** Optional: Additional USB-to-Ethernet adapter (Wi-Fi would also work) (Amazon, Aliexpress)
+
+**Note:** You can substitute the controller with any Linux-capable device (e.g., standard Raspberry Pi, old laptop, or NAS). Same goes with the OS.
